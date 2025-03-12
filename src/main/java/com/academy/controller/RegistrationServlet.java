@@ -1,4 +1,4 @@
-package com.acadamy.controller;
+package com.academy.controller;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;

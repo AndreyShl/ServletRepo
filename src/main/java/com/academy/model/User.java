@@ -1,4 +1,4 @@
-package com.acadamy.model;
+package com.academy.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

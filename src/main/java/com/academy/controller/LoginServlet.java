@@ -1,9 +1,9 @@
-package com.acadamy.controller;
+package com.academy.controller;
 
 
 
-import com.acadamy.servise.LogService;
-import jakarta.servlet.ServletException;
+import com.academy.servise.LogService;
+
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -32,7 +32,7 @@ public class LoginServlet extends HttpServlet {
         }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws  IOException {
 
         LogService logService = new LogService();
 
@@ -42,13 +42,13 @@ public class LoginServlet extends HttpServlet {
 
         if (logService.authenticate(login,password)) {
 
-            resp.sendRedirect("/WebInterpriceTest/main");
+            resp.sendRedirect("/ServletsWeb/main");
         } else {
 
             resp.setContentType("text/html");
             resp.getWriter().write("<html><body>");
             resp.getWriter().write("<h1>Invalid User or Password</h1>");
-            resp.getWriter().write("<a href='/WebInterpriceTest/login'>login again</a>");
+            resp.getWriter().write("<a href='/ServletsWeb/login'>login again</a>");
             resp.getWriter().write("</body></html>");
         }
     }

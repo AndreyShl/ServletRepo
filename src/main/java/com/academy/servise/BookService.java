@@ -1,6 +1,6 @@
-package com.acadamy.servise;
+package com.academy.servise;
 
-import com.acadamy.model.Book;
+import com.academy.model.Book;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;

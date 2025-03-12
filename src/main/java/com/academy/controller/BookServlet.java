@@ -1,7 +1,7 @@
-package com.acadamy.controller;
+package com.academy.controller;
 
-import com.acadamy.model.Book;
-import com.acadamy.servise.BookService;
+import com.academy.model.Book;
+import com.academy.servise.BookService;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

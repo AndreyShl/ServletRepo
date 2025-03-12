@@ -1,6 +1,6 @@
-package com.acadamy.servise;
+package com.academy.servise;
 
-import com.acadamy.model.User;
+import com.academy.model.User;
 
 import java.util.ArrayList;
 import java.util.List;

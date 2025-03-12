@@ -3,28 +3,28 @@
 
         <filter>
             <filter-name>LogFilter</filter-name>
-            <filter-class>com.acadamy.filter.LogFilter</filter-class>
+            <filter-class>com.academy.filter.LogFilter</filter-class>
         </filter>
 
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.acadamy.controller.LoginServlet</servlet-class>
+        <servlet-class>com.academy.controller.LoginServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RegistrationServlet</servlet-name>
-        <servlet-class>com.acadamy.controller.RegistrationServlet</servlet-class>
+        <servlet-class>com.academy.controller.RegistrationServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>BooksPageServlet</servlet-name>
-        <servlet-class>com.acadamy.controller.BooksPageServlet</servlet-class>
+        <servlet-class>com.academy.controller.BooksPageServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>BookServlet</servlet-name>
-        <servlet-class>com.acadamy.controller.BookServlet</servlet-class>
+        <servlet-class>com.academy.controller.BookServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>MainServlet</servlet-name>
-        <servlet-class>com.acadamy.controller.MainServlet</servlet-class>
+        <servlet-class>com.academy.controller.MainServlet</servlet-class>
     </servlet>
 
 
